@@ -19,6 +19,11 @@ Each file may contain new entries at any time. The schema for shipping addresses
 
 The company application pushes logs to a Kafka cluster for later processing.
 
+## Project Structure
+The project is divided into batch and streaming parts, each with distinct technical and business requirements aimed at achieving comprehensive data processing and insightful reporting for Q Company.
+
+![image](https://github.com/AliMagdy100/Big-Data-Case-Study-Using-Spark/assets/87953057/6469d365-6b9d-4687-97d3-2f9c5d57eea2)
+
 ## Batch Processing
 
 ### Technical Description
@@ -74,11 +79,4 @@ The streaming processing part of the project involves the following steps:
 - **Mandatory:** Apache Spark, Apache Hive
 - **Optional:** Any additional tools or stack components suitable for your setup
 
-## Project Structure
-The project is divided into batch and streaming parts, each with distinct technical and business requirements aimed at achieving comprehensive data processing and insightful reporting for Q Company.
 
-## Contributors
-- Ibrahim Elsadek
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
