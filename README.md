@@ -71,7 +71,6 @@ The streaming processing part of the project involves the following steps:
 - Develop at least two queries or reports from the streaming data.
 
 ## Tools and Technologies
-- **Mandatory:** Apache Spark, Apache Hive
-- **Optional:** Any additional tools or stack components suitable for your setup
+- **Mandatory:** Apache Spark, Apache Hive, Hadoop, Python, Cron
 
 
