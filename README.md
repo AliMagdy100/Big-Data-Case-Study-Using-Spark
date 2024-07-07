@@ -62,10 +62,7 @@ The streaming processing part of the project involves the following steps:
 
 1. **Kafka Producer:**
    - Utilize a Kafka Python producer to send application logs to a Kafka cluster. The logs have a dynamic schema, requiring analysis of the producer code to detect all possible data elements.
-   - Start the Kafka producer to run in the background after configuring the topic using:
-     ```bash
-     python /script/location/script.py
-     ```
+
    - Alternatively, run the producer from a Jupyter notebook.
 
 2. **Spark Streaming:**
